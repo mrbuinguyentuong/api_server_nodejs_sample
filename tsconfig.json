@@ -1,0 +1,46 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "typeRoots": ["node_modules/@types"],
+        "target": "es6",
+        "module": "commonjs",
+        "lib": [
+            "es5",
+            "es2015",
+            "es2017",
+            "dom",
+            "scripthost"
+        ],
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "allowJs":true,
+        "isolatedModules": false,
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "strictNullChecks": true,
+        "noStrictGenericChecks": true,
+        "emitDecoratorMetadata": true,
+        "forceConsistentCasingInFileNames": true,
+        "experimentalDecorators": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "skipLibCheck": true,
+        "outDir": "./dest/",
+        "rootDir": "./src/"
+            // "watch": true
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ],
+    "files": [
+        "src/configs/custom.d.ts"
+    ],
+    "skipFiles": [
+        "<node_internals>/**"
+    ]
+}
