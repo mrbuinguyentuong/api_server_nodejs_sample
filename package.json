@@ -38,7 +38,7 @@
         "domain": "0.0.1",
         "ejs": "^2.5.6",
         "ejs-locals": "^1.0.2",
-        "exceljs": "^0.4.10",
+        "exceljs": "^1.6.0",
         "express": "^4.15.2",
         "express-fileupload": "^0.1.4",
         "express-flash": "0.0.2",
